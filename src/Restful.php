@@ -1,6 +1,6 @@
 <?php
 
-namespace PaulKnebel\LaravelRestExtended;
+namespace BauerXcel\LaravelRestExtended;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;

@@ -1,5 +1,5 @@
 {
-  "name": "paulknebel/laravel-rest-extended",
+  "name": "bauerxcel/laravel-rest-extended",
   "description": "A simple trait to add useful features to Laravel's RESTful functionality",
   "license": "mit",
   "authors": [
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "PaulKnebel\\LaravelRestExtended\\": "src/"
+      "BauerXcel\\LaravelRestExtended\\": "src/"
     }
   }
 }

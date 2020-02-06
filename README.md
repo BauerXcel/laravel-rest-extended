@@ -26,7 +26,7 @@ The package is at a very early stage right now. I currently intend to add featur
  ## Install
  You can install the package via composer:
  ```
- composer require paulknebel/laravel-rest-extended
+ composer require bauerxcel/laravel-rest-extended
  ```
  
  ## Getting started
@@ -34,7 +34,7 @@ The package is at a very early stage right now. I currently intend to add featur
 The easiest way to get started is to use the `RestfulActions` trait. It provides some actions that directly map to Laravel's own "resource" actions
 
  ```php
- use PaulKnebel\LaravelRestExtended\Restful;
+ use BauerXcel\LaravelRestExtended\Restful;
 
 class ResourceApiController extends Controller {
 	use RestfulActions;
@@ -59,7 +59,7 @@ class ResourceApiController extends Controller {
 Alternatively, you can directly use the `Restful` trait, which provides more granular features of the REST package.
 
 ```php
-use paulknebel\LaravelRestExtended\Restful;
+use BauerXcel\LaravelRestExtended\Restful;
 
 class MyApiController extends Controller 
 {
